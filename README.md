@@ -153,7 +153,7 @@ In the context of the pipeline, Jenkins server clones the repo with the fresh co
 stage('Stage 1: Git Clone') {
     steps {
         git branch: 'main',
-        url: 'https://github.com/SaiTeja-002/Pixure.git'
+        url: 'https://github.com/teasmitha/Pixure.git'
     }
 }
 ```
