@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  frontend:
+    image: laxmisreenivas/pixture-client:latest
+    ports:
+      - '3000:3000'
+  backend:
+    image: laxmisreenivas/pixture-server:latest
+    ports:
+      - '5000:5000'
+    environment:
+      - DB_URL=${DB_URL}
+      - PORT=${PORT}
+      - SECRET_KEY=${SECRET_KEY}

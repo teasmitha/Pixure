@@ -1,0 +1,56 @@
+.header-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    height: 75px;
+    border-bottom: 2px solid #ddd;
+}
+
+.profile-header {
+    height: 45px;
+    border-bottom-width: 1px;
+    /* Adjust the size of the border for profile header */
+}
+
+.profile-icon {
+    margin-left: auto;
+    margin-right: 50px;
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    color: black;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.logo h3 {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo h3:hover {
+    text-decoration: none;
+}
+
+.logo h3:visited {
+    color: black;
+}
+
+.search-bar {
+    flex: 1;
+    margin: -100px 100px;
+    padding: 0 0px;
+}
+
+.logout {
+    margin-right: 30px;
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+}
